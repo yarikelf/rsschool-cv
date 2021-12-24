@@ -12,9 +12,14 @@ My name is Yaroslav. I was born in Minsk, Belarus, but right now i work and stud
 * JS 
 * C++ (a little bit) 
 ## Code example: 
--
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
 ## Work experience:
--
+Previously, i didn't work in the field of programming. I worked only in the field of sales.
 ## Education: 
 At the moment I am finishing my bachelor's degree at the Czech Agricultural University. I have not attended any courses related to programming before.
 ## English:
