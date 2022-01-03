@@ -1,13 +1,111 @@
-<!DOCTYPE HTML PUBLIC>
-<html>
+<!DOCTYPE html>
+<html lang="en">
  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Пример веб-страницы</title>
+  <meta charset="UTF=8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="style.css">
+  <title>СV</title>
  </head>
+
  <body>
-  <h1>Заголовок</h1>
-  <!-- Комментарий -->
-  <p>Первый абзац.</p>
-  <p>Второй абзац.</p>
- </body>
+
+    <header>
+        <h1 class="name">Yaroslav Sachkovskiy</h1>
+        <img class="photo" src="photo_2021-07-14_20-28-13.jpg" alt="My photo">
+        <nav>
+            <ul class="menu">
+                <li class="button_contacts"><a href="#contacts"> contacts</a></li>
+                <li class="button_skills"><a href="#skills"> skills</a></li>
+                <li class="button_courses"><a href="#courses"> courses</a></li>
+                <li class="button_education"><a href="#education"> education</a></li>
+                <li class="button_summary"><a href="#summary"> summary</a></li>
+                <li class="button_code"><a href="#code"> code</a></li>
+                <li class="button_projects"><a href="#projects"> projects</a></li>
+                <li class="button_languages"><a href="#languages"> languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="content">
+                <div class="contacts" id="contacts">
+                    <h2 class="contacts-title">contacts</h2>
+                    <ul class="contacts-list">
+                    <li><img width="15px" height="15px" class="email" src="icons/email.png" alt="email"><b> Email:</b> yarik8008@gmail.com</li>
+                    <li><img width="15px" height="15px" class="telegram" src="icons/telegram.png" alt="telegram"> <b> Telegram: </b>sachyarik (telegram)</li>
+                    <li><img width="15px" height="15px" class="discrod" src="icons/discord.png" alt="discrod"><b> Discord: </b>yarik800#9968 (discord)</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="skills" id="skills">
+                    <h2 class="skills-title">skills</h2>
+                    <ul class="skills-list">
+                        <li><img width="15px" height="15px" class="img_git" src="icons/git.png" alt="git"> Git</li>
+                        <li><img width="15px" height="15px" class="img_html" src="icons/html.png" alt="html"> Html</li>
+                        <li><img width="15px" height="15px" class="img_css" src="icons/css.png" alt="css"> Css</li> 
+                        <li><img width="15px" height="15px" class="img_js" src="icons/js.png" alt="js"> JS</li>
+                        <li><img width="15px" height="15px" class="img_c++" src="icons/c++.png" alt="c++"> C++ (a little bit)</li>
+                    </ul>
+                </div>
+
+
+                <div class="courses" id="courses">
+                    <h2 class="courses-title">courses</h2>
+                    <p>RS School - 2022Q0 (in process) </p>
+                </div>
+
+
+
+                <div class="education" id="education">
+                    <h2 class="education-title">education</h2>
+                    <p class="education-text">At the moment I am finishing my bachelor’s degree at the Czech Agricultural University. I have not attended any courses related to programming before.</p>
+                </div>
+
+
+
+                <div class="summary" id="summary">
+                    <h2 class="summary-title">summary</h2>
+                    <p class="summary-text">My name is Yaroslav. I was born in Minsk, Belarus, but right now i work and study in Czech Republic. I moved to the Czech Republic two years ago because I think there are more opportunities in Europe. At the moment I am finishing the third course of CZU. I study in Czech. I study economics. A friend told me RS School and i decided to study programming, because I believe that everyone should know it in the 21st century. Even a little</p>
+                </div>
+
+
+                <div class="code" id="code">
+                    <h2 class="code-title">code</h2>
+                    <pre>function sum(a, b) { return a + b; }
+
+                    let result = sum(1, 2); alert( result );</pre>
+                </div>
+
+                <div class="projects" id="projects">
+                    <h2 class="projects-title">projects</h2>
+                    <p>Previously, i didn't work in the field of programming. I worked only in the field of sales.</p>
+                </div>
+
+
+                <div class="languages" id="languages">
+                    <h2 class="languages-title">languages</h2>
+                    <ul>
+                        <li><img width="15px" height="15px" class="england" src="icons/england.png" alt="england"><b> English</b> - B1</li>
+                        <li><img width="15px" height="15px" class="russian" src="icons/russian.png" alt="russian"><b> Russian</b> - C2 (native language)</li>
+                        <li><img width="15px" height="15px" class="cz" src="icons/cz.png" alt="cz"><b> Czech</b> - B2</li>
+                        <li><img width="15px" height="15px" class="blr" src="icons/blr.png" alt="blr"><b> Belarusian</b> - (also native language)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><b>My GitHub: </b>https://github.com/yarikelf</p>
+        <p><b>Courses: </b>https://rs.school/js/ </p>
+        <img width="500px" height="300px" class="logo" src="rs_school_js.svg" alt="logo">
+        <p>@2022 </p>
+    </footer>
+
+</body>
 </html>
