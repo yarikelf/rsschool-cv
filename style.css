@@ -1,0 +1,224 @@
+.name{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.photo{
+ display: block;
+border-radius: 80px;
+width: 300px;
+height: 350px;
+margin: 2.3em auto;
+max-width: 95%;
+}
+
+.button_contacts{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_contacts:hover::after {
+   background-color: rgb(197, 38, 38);
+} 
+
+.button_skills{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_courses{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_education{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_summary{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_contacts{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_code{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_projects{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+.button_languages{
+   background-color: rgb(221, 166, 166);
+   border: blue solid 1px;
+   border-radius: 10px;
+   margin: 0 10px ;
+}
+
+header{
+ background-color: rgb(216, 216, 216);
+ padding: 10px;
+}
+
+main{
+   background-color: rgb(230, 233, 233);
+   padding: 10px;
+}
+
+footer{
+   background-color: rgb(216, 216, 216);
+   padding: 10px;
+   text-align: center;
+}
+
+
+
+
+.menu{
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+   margin: 3.3em auto;
+   max-width: 70%;
+   text-transform: uppercase;
+}
+
+.menu a{
+   text-decoration: none;
+   padding: 10px 20px;
+}
+
+
+.content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+   .contacts{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+   }
+
+   .skills{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+  }
+
+  .courses{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+  }
+
+  .education{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+  }
+
+  .summary{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+  }
+
+  .code{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+  }
+
+  .projects{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+  }
+
+  .languages{
+   width: 600px;
+   height: 170px;
+   border: black solid 1px;
+   border-radius: 20px;
+   margin: 10px 20px;
+   padding: 5px 20px;
+  }
+
+
+
+ .contacts-title{
+    text-transform: uppercase;
+ }
+ 
+ .skills-title{
+   text-transform: uppercase;
+}
+.courses-title{
+   text-transform: uppercase;
+}
+.education-title{
+   text-transform: uppercase;
+}
+
+.summary-title{
+   text-transform: uppercase;
+}
+
+.code-title{
+      text-transform: uppercase;
+}
+
+.projects-title{
+   text-transform: uppercase;
+}
+
+.languages-title{
+   text-transform: uppercase;
+}
